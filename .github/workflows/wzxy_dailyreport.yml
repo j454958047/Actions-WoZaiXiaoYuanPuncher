@@ -94,8 +94,7 @@ jobs:
   #     run: python wzxy-dailyreport.py      
 
 
-
-USER_02:    ## Jobs名，注意修改序号
+  USER_02:    ## Jobs名，注意修改序号
      runs-on: ubuntu-latest
      environment: WZXY_CONFIG_02      
      steps:
