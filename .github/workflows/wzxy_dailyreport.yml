@@ -97,7 +97,7 @@ jobs:
 
 USER_02:    ## Jobs名，注意修改序号
      runs-on: ubuntu-latest
-     environment: WZXY_CONFIG_01      
+     environment: WZXY_CONFIG_02      
      steps:
      - uses: actions/checkout@v2
      - name: Set up Python 3.9
