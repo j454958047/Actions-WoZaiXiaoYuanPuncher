@@ -131,5 +131,5 @@ jobs:
          WZXY_PROVINCE: ${{secrets.PROVINCE}}
          WZXY_TOWNSHIP: ${{secrets.TOWNSHIP}}
          WZXY_STREET: ${{secrets.STREET}}
-         WZXY_CITY_CODE: ${{secrets.CITY_CODE}}
+         WZXY_CITYCODE: ${{secrets.CITYCODE}}
        run: python wzxy-dailyreport.py   
