@@ -93,7 +93,7 @@ jobs:
   #       WZXY_CITY_CODE: ${{secrets.CITY_CODE}}
   #     run: python wzxy-dailyreport.py      
 
-  USER_02:    ## Jobs名，注意修改序号
+#- USER_02:    ## Jobs名，注意修改序号
      runs-on: ubuntu-latest
      environment: WZXY_CONFIG_02      
      steps:
@@ -133,3 +133,4 @@ jobs:
          WZXY_STREET: ${{secrets.STREET}}
          WZXY_CITYCODE: ${{secrets.CITYCODE}}
        run: python wzxy-dailyreport.py   
+-#
