@@ -150,7 +150,6 @@ class WoZaiXiaoYuanPuncher:
             "province": os.environ["WZXY_PROVINCE"],
             "township": os.environ["WZXY_TOWNSHIP"],
             "street": os.environ["WZXY_STREET"],
-            "towncode": os.environ["WZXY_TOWNCODE"],
             "myArea": "",
             "areacode": "",
             "citycode": os.environ["WZXY_CITYCODE"],
